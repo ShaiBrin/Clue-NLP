@@ -1,0 +1,13 @@
+
+# ============== Faits de départ ================
+# ==== Armes
+Le marteau est dans la cuisine
+Le fusil est dans le salon
+
+
+# ==== Personnes / heures
+Mustard était dans le balcon à 5h
+Scarlet est dans le cuisine
+Scarlet était dans le salon à 1h
+Peacock est dans le salon
+Olive est vivante

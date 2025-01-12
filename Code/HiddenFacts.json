@@ -1,0 +1,47 @@
+{
+  "Armes": {
+    "cuisine": "marteau",
+    "bureau": "couteau",
+    "salon": "fusil",
+    "garage": "clé à écrous",
+    "balcon": "baton",
+    "cave": "corde"
+  },
+
+  "Personne-piece": {
+    "piece_1": {
+      "cave_avant": "Mustard",
+      "cave_apràs": "Mustard"
+    },
+
+    "piece_2": {
+      "cuisine_avant": "",
+      "cuisine_après": "Olive"
+    },
+
+    "piece_3": {
+      "bureau_avant": "Plum",
+      "bureau_arpès": "Plum"
+    },
+
+    "piece_4": {
+      "garage_avant": "Olive",
+      "garage_après": ""
+    },
+
+    "piece_5": {
+      "balcon_avant": "White",
+      "balcon_après": "White"
+    },
+
+    "piece_6": {
+      "salon_1": "",
+      "garage_2": ""
+    }
+  },
+
+  "Victime": {
+    "marque":"White a une brisure à la tête",
+    "temps": "7"
+  }
+}

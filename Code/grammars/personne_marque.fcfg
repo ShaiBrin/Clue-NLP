@@ -1,0 +1,23 @@
+%start S
+
+S[SEM=<Marque(?vp, ?np)>] -> VP[SEM=?vp] NP[SEM=?np]
+VP[SEM=?n] -> Nprop[SEM=?n] V
+NP[SEM=?np] -> Det Nmarque[SEM=?np] P Npartie
+V -> 'a' | 'avait'
+Det -> 'des' | 'un' | 'une'
+P -> 'au' | 'à' 'la'
+Npartie -> 'cou' | 'dos' | 'tête' | 'torse'
+
+Nprop[SEM=<Mustard>] -> 'Mustard'
+Nprop[SEM=<Peacock>] -> 'Peacock'
+Nprop[SEM=<Scarlet>] -> 'Scarlet'
+Nprop[SEM=<Plum>] -> 'Plum'
+Nprop[SEM=<White>] -> 'White'
+Nprop[SEM=<Olive>] -> 'Olive'
+
+Nmarque[SEM=<Marque>] -> 'marques' | 'marque'
+Nmarque[SEM=<Trou>] -> 'trous' | 'trou'
+Nmarque[SEM=<Coupure>] -> 'coupures' | 'coupure'
+Nmarque[SEM=<Enflure>] -> 'enflures' | 'enflure'
+Nmarque[SEM=<Fracture>] -> 'fractures' | 'fracture'
+Nmarque[SEM=<Brisure>] -> 'brisures' | 'brisure'
